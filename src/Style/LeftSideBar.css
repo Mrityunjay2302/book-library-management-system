@@ -1,0 +1,130 @@
+.left-side-bar-main-container {
+  height: 100vh;
+  width: 18vw;
+  margin-top: 19px;
+}
+.left-side-bar-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  height: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.664);
+  margin-bottom: 5px;
+  height: 10vh;
+}
+.left-side-bar-library-icon {
+  font-size: 4ch;
+  color: rgba(0, 128, 0, 0.932);
+}
+.left-side-bar-user-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid rgb(177, 233, 177);
+}
+
+.left-side-bar-user-icon {
+  height: 80px;
+  width: 100px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.left-side-bar-user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  color: rgba(0, 0, 0, 0.911);
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.left-side-bar-feature-container {
+  display: flex;
+  flex-direction: column;
+  height: 75vh;
+  margin: -1px -17px;
+}
+.left-side-bar-feature {
+  display: flex;
+  padding: 10px 15px;
+}
+.left-side-bar-feature:visited {
+  background-color: rgb(177, 233, 177);
+}
+.left-side-bar-feature:hover {
+  background-color: rgb(177, 233, 177);
+  text-decoration: none;
+  font-size: 16px;
+  border-right: 3px solid green;
+}
+.left-side-bar-feature-icon {
+  font-size: 3.2ch;
+
+  color: black;
+}
+.left-side-bar-feature-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.straight-line {
+  margin: 5px 29px 5px 15px;
+  height: 120px;
+  border-left: 1px solid rgb(0, 0, 0);
+}
+.books {
+  border: 1px solid black;
+  width: 100%;
+  padding: 15px 0px 0px;
+}
+.task_icons {
+  font-size: 25px;
+  color: green;
+}
+.left-side-bar-books-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-left: 13px;
+
+  padding-top: 5px;
+}
+.left-side-bar-books {
+  margin-bottom: 15px;
+}
+
+.left-side-bar-books,
+.left-side-bar-feature-name {
+  color: rgba(0, 0, 0, 0.911);
+  font-weight: 500;
+}
+.left-side-bar-books:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.904);
+  color: rgba(0, 0, 0, 0.993);
+  font-weight: 550;
+}
+
+.left-side-bar-feature-name:hover {
+  text-decoration: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.904);
+  color: rgba(0, 0, 0, 0.856);
+  font-weight: 550;
+}
+#task:hover {
+  text-decoration: none !important;
+  font-weight: 500 !important;
+}

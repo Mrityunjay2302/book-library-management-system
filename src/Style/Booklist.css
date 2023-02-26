@@ -1,0 +1,6 @@
+#table tr:nth-child(even){
+    background-color: rgb(177, 233, 177);
+}
+#table{
+    background-color: rgb(248, 247, 247);
+}

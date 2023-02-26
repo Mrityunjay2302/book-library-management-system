@@ -1,0 +1,26 @@
+#footer-container{
+    background-color:rgb(44, 51, 51) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+   margin: 5px;
+}
+#icons-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cc{
+    color: rgb(177, 175, 175);
+    background-color:rgb(55, 59, 59) ;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 117px;
+}

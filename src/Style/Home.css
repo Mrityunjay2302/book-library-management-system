@@ -1,0 +1,25 @@
+.home-main-container{
+  height: 100vh;
+  border: 1px solid black;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+.home-library-img {
+  margin-top: 10px;
+  height: 400px;
+ }
+.welcome_text{
+ font-size: 3ch;
+ font-weight:500;
+ color: rgba(0, 0, 0, 0.911);
+}
+#welcome_text{
+  color: green;
+  font-weight: 700;
+  font-size: 25px;
+}
