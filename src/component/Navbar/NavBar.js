@@ -50,21 +50,21 @@ function NavBar() {
         </NavLink>
       </div>
       <div className="side-nav-container_3">
-        {!auth.user && (
-          <NavLink to={"/login"} className="navText">
-            <Button
-              variant="outlined"
-              size="medium"
-              style={{
-                fontWeight: "500",
-                padding: " 6px 17px",
-                color: "black",
-              }}
-            >
-              Dashboard
-            </Button>
-          </NavLink>
-        )}
+//         {!auth.user && (
+//           <NavLink to={"/login"} className="navText">
+//             <Button
+//               variant="outlined"
+//               size="medium"
+//               style={{
+//                 fontWeight: "500",
+//                 padding: " 6px 17px",
+//                 color: "black",
+//               }}
+//             >
+//               Dashboard
+//             </Button>
+//           </NavLink>
+//         )}
 
         {!auth.user ? (
           <NavLink to={"/profile"} className="navText">
@@ -74,7 +74,7 @@ function NavBar() {
               endIcon={<FiLogIn />}
               style={{ fontWeight: "400", padding: " 7px 22px" }}
             >
-              Login
+              Dashboard/Login
             </Button>
           </NavLink>
         ) : (
